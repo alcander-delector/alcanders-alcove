@@ -12,6 +12,8 @@
 	const mainSite = 'https://www.google.com';
 </script>
 
+<svelte:head><title>Alcander's Alcove</title></svelte:head>
+
 <div class="relative">
 	<img src={main} alt="Inside our café" class="block aspect-5/4 w-full object-cover" />
 
@@ -112,10 +114,10 @@
 
 <footer class="flex flex-col items-center gap-6 pb-12">
 	<div class="flex flex-wrap justify-center gap-x-10 gap-y-3 px-6">
+		<a class="link-footer" href={`${mainSite}/locations`}>Visit Us</a>
 		<a class="link-footer" href={`${mainSite}/help-center`}>Help Center</a>
 		<a class="link-footer" href={`${mainSite}/contact-us`}>Contact Us</a>
 		<a class="link-footer" href={`${mainSite}/careers`}>Careers</a>
-		<a class="link-footer" href={`${mainSite}/locations`}>Visit Us</a>
 		<a class="link-footer" href={`${mainSite}/privacy-policy`}>Privacy Policy</a>
 		<a class="link-footer" href={`${mainSite}/terms-of-service`}>Terms of Service</a>
 	</div>
