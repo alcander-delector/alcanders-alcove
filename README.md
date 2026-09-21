@@ -5,7 +5,7 @@ custom theme system, fluid typography, and a fully static deployment pipeline.
 
 **Live site:** [alcander-delector.github.io/alcanders-alcove](https://alcander-delector.github.io/alcanders-alcove/)
 
-> **Note:** Alcander's Alcove is not a real business. This site is a portfolio project, 
+> **Note:** Alcander's Alcove is not a real business. This site is a portfolio project,
 > all names, copy, prices, and links are fictional placeholders.
 
 ## Built with
@@ -26,4 +26,4 @@ and the [Unsplash License](https://unsplash.com/license).
 Photography by [Anastasiia Chepinska](https://pixabay.com/users/anastasiia-chepinska-2802017/),
 [Nathan Dumlao](https://unsplash.com/@nate_dumlao),
 [Pablao Merchan Montes](https://pixabay.com/users/pablomerchanmontes-4617757/), and
-[Hanvin Cheong](https://unsplash.com/@hanvin) — logo and design by me.
+[Hanvin Cheong](https://unsplash.com/@hanvin)
