@@ -1,42 +1,46 @@
-# sv
+# Alcander's Alcove ☕
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A landing page for a fictional Manila café — built as a portfolio project to show off a
+custom theme system, fluid typography, and a fully static deployment pipeline.
 
-## Creating a project
+**Live site:** [alcander-delector.github.io/alcanders-alcove](https://alcander-delector.github.io/alcanders-alcove/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+> **Note:** Alcander's Alcove is not a real business. This site is a portfolio project —
+> all names, copy, prices, and links are fictional placeholders.
+
+## Built with
+
+- [SvelteKit](https://svelte.dev/docs/kit) 5 + TypeScript
+- [Tailwind CSS](https://tailwindcss.com) v4 (utilities for layout, custom theme classes for looks)
+- [`@sveltejs/adapter-static`](https://svelte.dev/docs/kit/adapter-static) — fully prerendered
+- GitHub Pages deploy via GitHub Actions (`.github/workflows/deploy.yml`)
+
+## Features
+
+- Custom theme system: design tokens in `:root`, element-first theme classes
+  (`text-hero`, `button-caramel`, `card-espresso`), all defined in
+  [`src/lib/styles/themes.css`](src/lib/styles/themes.css)
+- Fluid typography via CSS `min()` — text scales down on phones, caps on desktop
+- Responsive from 320px to 4K (flex layouts + one `sm:` breakpoint)
+- ~1MB total page weight (images resized and re-encoded to WebP)
+- Smooth-scroll navigation, animated link underlines, card hover lifts
+
+## Running locally
 
 ```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add tailwindcss="plugins:typography,forms" --install npm cafe-landing-page
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## License
 
-To create a production version of your app:
+Code is released under the [MIT License](LICENSE).
+All photography is used under the [Pixabay Content License](https://pixabay.com/service/license-summary/)
+and the [Unsplash License](https://unsplash.com/license).
 
-```sh
-npm run build
-```
+## Acknowledgments
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Photography by [Anastasiia Chepinska](https://pixabay.com/users/anastasiia-chepinska-2802017/),
+[Nathan Dumlao](https://unsplash.com/@nate_dumlao),
+[Pablao Merchan Montes](https://pixabay.com/users/pablomerchanmontes-4617757/), and
+[Hanvin Cheong](https://unsplash.com/@hanvin) — logo and design by me.
