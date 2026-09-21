@@ -29,7 +29,7 @@
 			Experience premium, sustainably sourced specialty coffee in the heart of Manila. Open daily from 6 AM to 10 PM.
 		</p>
 
-		<div class="mt-20 flex justify-center gap-4 sm:mt-10 sm:gap-8">
+		<div class="mt-10 flex justify-center gap-4 sm:gap-8">
 			<a href="#trending" class="button-caramel">Our Menu</a>
 			<a href="#about" class="button-outline-caramel">About Us</a>
 		</div>
