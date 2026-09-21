@@ -39,7 +39,7 @@
 <section id="about" class="mt-24">
 	<h2 class="text-section text-center">About Us</h2>
 
-	<p class="text-muted mx-auto mt-8 w-[70%] text-center text-lg leading-relaxed">
+	<p class="text-muted mx-auto mt-8 w-[70%] text-center leading-relaxed">
 		We're a small Manila roastery focused with one question: what makes the perfect cup? Every bean comes from local
 		farms we support and love, roasted in small batches and brewed like it's the only one that matters. No shortcuts and
 		No corners cut, just coffee done right, for people like you who love it just as much as we do.
@@ -49,8 +49,8 @@
 		<div class="flex flex-col items-center gap-8 sm:flex-row sm:gap-12">
 			<img class="image-step sm:w-[10%]" src={beans} alt="Coffee beans being harvested" />
 			<div class="sm:w-[55%]">
-				<h3 class="text-2xl font-bold text-(--cream)">Journey of the Coffee Beans</h3>
-				<p class="text-muted mt-3">
+				<h3 class="text-xl font-bold text-(--cream)">Journey of the Coffee Beans</h3>
+				<p class="text-muted text-sm mt-3">
 					Gathered by hand from local farmers we know by name with every bean picked at with the best ripeness.
 				</p>
 			</div>
@@ -59,8 +59,8 @@
 		<div class="flex flex-col items-center gap-8 sm:flex-row-reverse sm:gap-12">
 			<img class="image-step sm:w-[10%]" src={maker} alt="Coffee being brewed by our maker" />
 			<div class="sm:w-[55%]">
-				<h3 class="text-2xl font-bold text-(--cream)">Brewing the Coffee</h3>
-				<p class="text-muted mt-3">
+				<h3 class="text-xl font-bold text-(--cream)">Brewing the Coffee</h3>
+				<p class="text-muted text-sm mt-3">
 					Roasted and brewed in small batches right here in Manila, tuned until each cup is exactly right.
 				</p>
 			</div>
@@ -69,8 +69,8 @@
 		<div class="flex flex-col items-center gap-8 sm:flex-row sm:gap-12">
 			<img class="image-step sm:w-[10%]" src={cup} alt="The finished cup of coffee" />
 			<div class="sm:w-[55%]">
-				<h3 class="text-2xl font-bold text-(--cream)">Finally, our perfection in your hands</h3>
-				<p class="text-muted mt-3">
+				<h3 class="text-xl font-bold text-(--cream)">Finally, our perfection in your hands</h3>
+				<p class="text-muted text-sm mt-3">
 					Poured into your cup with freshness. Perfection isn't an accident, it's the standard.
 				</p>
 			</div>
