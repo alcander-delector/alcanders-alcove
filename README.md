@@ -1,36 +1,19 @@
 # Alcander's Alcove ☕
 
-A landing page for a fictional Manila café — built as a portfolio project to show off a
+A landing page for a fictional Manila café but built as a portfolio project to show off a
 custom theme system, fluid typography, and a fully static deployment pipeline.
 
 **Live site:** [alcander-delector.github.io/alcanders-alcove](https://alcander-delector.github.io/alcanders-alcove/)
 
-> **Note:** Alcander's Alcove is not a real business. This site is a portfolio project —
+> **Note:** Alcander's Alcove is not a real business. This site is a portfolio project, 
 > all names, copy, prices, and links are fictional placeholders.
 
 ## Built with
 
 - [SvelteKit](https://svelte.dev/docs/kit) 5 + TypeScript
 - [Tailwind CSS](https://tailwindcss.com) v4 (utilities for layout, custom theme classes for looks)
-- [`@sveltejs/adapter-static`](https://svelte.dev/docs/kit/adapter-static) — fully prerendered
+- [`@sveltejs/adapter-static`](https://svelte.dev/docs/kit/adapter-static) Fully prerendered
 - GitHub Pages deploy via GitHub Actions (`.github/workflows/deploy.yml`)
-
-## Features
-
-- Custom theme system: design tokens in `:root`, element-first theme classes
-  (`text-hero`, `button-caramel`, `card-espresso`), all defined in
-  [`src/lib/styles/themes.css`](src/lib/styles/themes.css)
-- Fluid typography via CSS `min()` — text scales down on phones, caps on desktop
-- Responsive from 320px to 4K (flex layouts + one `sm:` breakpoint)
-- ~1MB total page weight (images resized and re-encoded to WebP)
-- Smooth-scroll navigation, animated link underlines, card hover lifts
-
-## Running locally
-
-```sh
-npm install
-npm run dev
-```
 
 ## License
 
